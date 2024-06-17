@@ -1,0 +1,347 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.job{
+    font-size: 1.5rem;
+    color:#151515;
+    margin:1% auto;
+    text-align: center;
+    font-family: "Assistant";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.description{
+    text-align: center;
+    font-family: "AssistantR";
+    font-size: 1.25rem;
+    width:50%;
+    margin:1% auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+.wrapper{
+width:100%;
+display: flex;
+flex-direction:column;
+direction: rtl;
+}
+.wrap{
+ display: flex;
+ flex-direction: column;
+
+ margin:2% auto;
+ width:400px;
+}
+.name{
+    font-size: 1.5rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin:1% auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.explain{
+    font-size: 1.2rem;
+    color:#222;
+    text-align: center;
+    font-family: "AssistantR";
+}
+
+@media only screen and (max-width: 350px){
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .job{
+            font-size: 1.1rem;
+            color:#151515;
+            margin:1% auto;
+            width:90%;
+            text-align: center;
+            font-family: "Assistant";
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .description{
+            text-align: center;
+            font-family: "AssistantR";
+            font-size: 1.1rem;
+            width:90%;
+            margin:1% auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+        }
+        
+        .wrapper{
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        direction: rtl;
+        }
+        .wrap{
+         display: flex;
+         flex-direction: column;
+        box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+        border-radius: 20px;
+        padding:10px;
+
+        margin:3% auto;
+         width:300px;
+        }
+        .name{
+            font-size: 1.2rem;
+            font-family: "Assistant";
+            text-align: center;
+            margin:1% auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .explain{
+            font-size: 1.1rem;
+            color:#222;
+            margin:0 auto;
+            width:100%;
+            text-align: center;
+            font-family: "AssistantR";
+        }
+        
+
+}
+@media only screen  and (min-width: 350px) and (max-width: 450px){
+   
+        .row{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .job{
+            font-size: 1.2rem;
+            color:#151515;
+            margin:1% auto;
+            width:90%;
+            text-align: center;
+            font-family: "Assistant";
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .description{
+            text-align: center;
+            font-family: "AssistantR";
+            font-size: 1.15rem;
+            width:90%;
+            margin:1% auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+        }
+        
+        .wrapper{
+        width:100%;
+        display: flex;
+        flex-direction:column;
+        direction: rtl;
+        }
+        .wrap{
+         display: flex;
+         flex-direction: column;
+        box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+        border-radius: 20px;
+        padding:15px;
+
+        margin:3% auto;
+         width:300px;
+        }
+        .name{
+            font-size: 1.25rem;
+            font-family: "Assistant";
+            text-align: center;
+            margin:1% auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        .explain{
+            font-size: 1.1rem;
+            color:#222;
+            margin:0 auto;
+            width:100%;
+            text-align: center;
+            font-family: "AssistantR";
+        } 
+}
+@media only screen  and (min-width: 450px) and (max-width: 550px){
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .job{
+        font-size: 1.2rem;
+        color:#151515;
+        margin:1% auto;
+        width:85%;
+        text-align: center;
+        font-family: "Assistant";
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .description{
+        text-align: center;
+        font-family: "AssistantR";
+        font-size: 1.15rem;
+        width:90%;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+    }
+    
+    .wrapper{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    direction: rtl;
+    }
+    .wrap{
+     display: flex;
+     flex-direction: column;
+    box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+    border-radius: 20px;
+    padding:15px;
+
+    margin:3% auto;
+     width:300px;
+    }
+    .name{
+        font-size: 1.4rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .explain{
+        font-size: 1.15rem;
+        color:#222;
+        margin:0 auto;
+        width:100%;
+        text-align: center;
+        font-family: "AssistantR";
+    } 
+}
+@media only screen  and (min-width: 550px) and (max-width: 650px){
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .job{
+        font-size: 1.4rem;
+        color:#151515;
+        margin:1% auto;
+        width:90%;
+        text-align: center;
+        font-family: "Assistant";
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .description{
+        text-align: center;
+        font-family: "AssistantR";
+        font-size: 1.2rem;
+        width:90%;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+    }
+    
+    .wrapper{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    direction: rtl;
+    }
+    .wrap{
+     display: flex;
+     flex-direction: column;
+    box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+    border-radius: 20px;
+    padding:15px;
+
+    margin:3% auto;
+     width:300px;
+    }
+    .name{
+        font-size: 1.5rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .explain{
+        font-size: 1.2rem;
+        color:#222;
+        margin:0 auto;
+        width:100%;
+        text-align: center;
+        font-family: "AssistantR";
+    } 
+}
+@media only screen  and (min-width: 650px) and (max-width: 850px){
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .job{
+        font-size: 1.5rem;
+        color:#151515;
+        margin:1% auto;
+        width:75%;
+        text-align: center;
+        font-family: "Assistant";
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .description{
+        text-align: center;
+        font-family: "AssistantR";
+        font-size: 1.25rem;
+        width:90%;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        justify-content: center;
+    }
+    
+    .wrapper{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    direction: rtl;
+    }
+    .wrap{
+     display: flex;
+     flex-direction: column;
+    box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+    border-radius: 20px;
+    padding:15px;
+
+    margin:3% auto;
+     width:300px;
+    }
+    .name{
+        font-size: 1.5rem;
+        font-family: "Assistant";
+        text-align: center;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .explain{
+        font-size: 1.2rem;
+        color:#222;
+        margin:0 auto;
+        width:100%;
+        text-align: center;
+        font-family: "AssistantR";
+    } 
+}

@@ -1,0 +1,30 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+}
+.button {
+    background: rgba(255, 190, 223, 0.4); /* Classic pink with transparency */
+    border: none;
+    color: #2e2e2e;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-family: "Assistant";
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background: rgba(255, 105, 180, 0.5); /* Increase transparency on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    background: rgba(232, 59, 151, 0.7); /* Dark pink on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+  }
