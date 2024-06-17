@@ -5,16 +5,33 @@ import FirstScreen from './screens/FirstScreen';
 import SecondScreen from './screens/SecondScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import ForthScreen from './screens/ForthPage';
+import { useEffect, useState } from 'react';
 
 function App() {
-  
+  const [scrolled, setScrolled] = useState(false);
+  const handleScroll = () => {
+    if (window.pageYOffset > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+  useEffect(() => {
+   
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+        window.removeEventListener("scroll", handleScroll);
+    };
+}, []);
   return <>
+  <div class="wrap">
   <NavBar/>
-  <FirstScreen/>
+  <FirstScreen scrolled={scrolled}/>
   <ForthScreen/>
 <ThirdScreen/>
   <SecondScreen/>
- 
+  </div>
   </>
 }
 

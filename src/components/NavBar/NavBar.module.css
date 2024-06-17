@@ -51,7 +51,7 @@ transition: all ease-out 1s;
     right: -100vw;
     width:100vw;
     height: 100vh;
-    background: linear-gradient(141deg,  rgba(233,165,156,1) 0%,#df8478 10%,  rgba(233,165,156,1) 20%,#df8478 30%,  rgba(233,165,156,1) 40%,#df8478 50%,  rgba(233,165,156,1) 60%,#df8478 70%,  rgba(233,165,156,1) 80%,#df8478 90%,  rgba(233,165,156,1) 100%);
+    background: linear-gradient(150deg, rgba(158,8,60,1) 5%, rgba(172,41,86,1) 20%, rgba(158,8,60,1) 35%, rgba(172,41,86,1) 50%, rgba(158,8,60,1) 65%, rgba(172,41,86,1) 80%, rgba(158,8,60,1) 95%);
     backdrop-filter: blur(100px);
     -webkit-backdrop-filter: blur(100px);
     display: flex;
@@ -59,7 +59,7 @@ transition: all ease-out 1s;
     justify-content: center;
     align-items: center;
     padding: 20px;
-  
+
     box-sizing: border-box;
     z-index: 999999;
     transition: right 0.3s ease-in-out;
@@ -125,7 +125,7 @@ transition: all ease-out 1s;
     cursor: pointer;
   }
   .navLink{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-size: 1.1rem;
 font-family: "AssistantR";
 cursor: pointer;
@@ -167,7 +167,7 @@ transform: scale(1.1);
       object-fit: fill;
     }
     .navImage{
-      height:70px;
+      height:90px;
       object-fit: fill;
     }
     .navLinks ul li {
@@ -182,7 +182,7 @@ transform: scale(1.1);
       object-fit: fill;
     }
     .navImage{
-      height:75px;
+      height:95px;
       object-fit: fill;
     }
     .navLinks ul li {

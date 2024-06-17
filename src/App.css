@@ -4,3 +4,6 @@ body{
     background: linear-gradient(150deg, rgba(252,191,212,1) 5%, rgba(228,139,183,1) 20%, rgba(252,191,212,1) 35%, rgba(228,139,183,1) 50%, rgba(252,191,212,1) 65%, rgba(228,139,183,1) 80%, rgba(252,191,212,1) 95%);
 
 }
+.wrap{
+    overflow:hidden;
+}
