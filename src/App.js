@@ -6,6 +6,7 @@ import SecondScreen from './screens/SecondScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import ForthScreen from './screens/ForthPage';
 import { useEffect, useState } from 'react';
+import Who from './components/card/Who';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -31,6 +32,7 @@ function App() {
   <ForthScreen/>
 <ThirdScreen/>
   <SecondScreen/>
+  <Who/>
   </div>
   </>
 }
