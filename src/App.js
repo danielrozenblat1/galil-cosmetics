@@ -7,6 +7,7 @@ import ThirdScreen from './screens/ThirdScreen';
 import ForthScreen from './screens/ForthPage';
 import { useEffect, useState } from 'react';
 import Who from './components/card/Who';
+import ByMe from './components/ByMe/ByMe';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,9 +31,10 @@ function App() {
   <NavBar/>
   <FirstScreen scrolled={scrolled}/>
   <ForthScreen/>
+  <Who/>
 <ThirdScreen/>
   <SecondScreen/>
-  <Who/>
+  <ByMe/>
   </div>
   </>
 }

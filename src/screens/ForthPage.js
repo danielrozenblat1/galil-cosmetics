@@ -30,24 +30,25 @@ useEffect(()=>{
 
     <div className={styles.row}>
 <div className={styles.wrap}>
-<div className={styles.name}>טיפולים קוסמטיים</div>
-<div className={styles.explain}>כמו הזרקות בוטוקס, חומצה היאלורונית ופילינג כימי.</div>
+<div className={styles.name}>טיפולי אנטי-אייג'ינג 360</div>
+<div className={styles.explain}>סדרת טיפולים שנועדו להאט, למנוע ולהפחית את סימני הזדקנות של העור בעזרת שילוב של טיפולים אסתטיים וקוסמטיים</div>
 </div>
 
 <div className={styles.wrap}>
-<div className={styles.name}>טיפולים טכנולוגיים</div>
-<div className={styles.explain}>כמו לייזר, גלי רדיו וטיפולים במיקרו-מחטים.</div>
+<div className={styles.name}>טיפולים קוסמטיים</div>
+<div className={styles.explain}>כמו פילינגים, גלי רדיו, מיקרונידלינג, העשרת העור בויטמינים ואנטי אוקסידנטים, שיקום המחסום האפידרמלי של העור ושימוש במוצרי טיפוח המכילים רכיבים פעילים התורמים לעור זוהר, חלק ואחיד בגוון</div>
 </div>
 </div>
 <div className={styles.row}>
 <div className={styles.wrap}>
-<div className={styles.name}>טיפולים טבעיים</div>
-<div className={styles.explain}>שימוש במוצרי טיפוח המבוססים על רכיבים טבעיים כמו ויטמינים, אנטי-אוקסידנטים וצמחי מרפא.</div>
+<div className={styles.name}>טיפולים אסתטיים רפואיים</div>
+<div className={styles.explain}>טיפולים המבוצעים ע"י רופא מומחה באסתטיקה. 
+טיפולים ע"י הזרקות בוטוקס ליישור הקמטים, חומצה היאלורונית למילוי נפחים, שחסרים כמו בשקעי העיניים , שפתיים וקו לסת. וכן גם לקמטים עמוקים</div>
 </div>
 
 <div className={styles.wrap}>
-<div className={styles.name}>טיפולים רפואיים</div>
-<div className={styles.explain}>הנעשים על ידי רופאי עור ומומחים לאסתטיקה, כגון טיפולי פלסטיקה, מתיחות פנים והשתלות עור.</div>
+<div className={styles.name}>טיפולי לייזר</div>
+<div className={styles.explain}>טיפולי לייזר מאפשרים לטפל במגוון רחב של בעיות בשכבות העמוקות של העור ולהגיע לתוצאות מיטביות, ללא כאב וזמן החלמה. השגת הצערת העור נעשית בדרך הטבעית ביותר של חימום הרקמות ,שמטרתו לעודד ייצור של חלבוני בנייה כמו קולגן ואלסטין והסרת נגעים,סרחי עור , נקבוביות פעורות</div>
 </div>
 
 </div>

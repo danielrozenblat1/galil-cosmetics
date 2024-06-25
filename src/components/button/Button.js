@@ -1,8 +1,24 @@
 import styles from "./Button.module.css"
 const Button=(props)=>{
 
+
+    const handleButtonClick = () => {
+        const phoneNumber = "+972548814444";
+        // Set the message content
+        const message ="היי אורלי ,אני רוצה לשמוע ממך עוד על..";
+    
+        // Encode the message for the URL
+        const encodedMessage = encodeURIComponent(message);
+        // Construct the WhatsApp message URL with phone number and message
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      
+        // Open the URL in a new tab
+        window.open(whatsappURL, "_blank");
+    
+      };
+
 return <>
-<div className={styles.wrap}>
+<div className={styles.wrap} onClick={handleButtonClick}>
 <button className={styles.button}>{props.text}</button>
 </div>
 

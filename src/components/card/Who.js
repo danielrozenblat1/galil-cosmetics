@@ -5,6 +5,7 @@ import shlomi from "../../images/שלומי ללא רקע.png"
 import { useEffect } from "react"
 import ScrollReveal from "scrollreveal"
 import Slider from "react-slick"
+import NewCard from "./NewCard"
 const Who=()=>{
 
     useEffect(()=>{
@@ -30,18 +31,7 @@ const Who=()=>{
     return <>
     
     <div className={styles.title} id="מי אנחנו">מי אנחנו?</div>
-    <div className={styles.row}>
-  
-   
-
-
- 
-    <ActionAreaCard src={shlomi} name=" שלומי ברטלר" description="מתמחה בהזרקות , חומצה היאלרונית וטיפולים מיוחדים"  background="linear-gradient(150deg, rgba(255,255,255,0.36130948961615894) 20%, rgba(172,41,122,0.4565475848542542) 50%, rgba(255,255,255,1) 76%)"/>
- <ActionAreaCard src={orly} name="אורלי ברטלר" description="מתמחה בטיפולים קוסמטים, בלייזר ובמחטים"  background="linear-gradient(150deg, rgba(255,255,255,0.36130948961615894) 20%, rgba(172,41,122,0.4565475848542542) 50%, rgba(255,255,255,1) 76%)"/>
-
-  
-    </div>
-    
+<NewCard/>
     
     
     </>
