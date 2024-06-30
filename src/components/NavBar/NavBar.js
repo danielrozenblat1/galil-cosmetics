@@ -54,10 +54,10 @@ const NavBar = () => {
         </div>}
       
          {width>=850 && <div className={styles.row}>
-          <ScrollLink to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink>
-          <ScrollLink to="שאלות נפוצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>שאלות נפוצות</div></ScrollLink>
+          <ScrollLink to="אנטי אייג'ינג" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>אנטי אייג'ינג</div></ScrollLink>
+          <ScrollLink to="תהליך העבודה איתי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>תהליך העבודה</div></ScrollLink>
           <ScrollLink to="לקוחות ממליצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצות</div></ScrollLink>
-          <ScrollLink to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink>
+          <ScrollLink to="קצת עלינו" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלינו</div></ScrollLink>
             </div>}
       
         <div className={`${styles.navLinks} ${isOpen ? styles.openLinks : ''}`}>
@@ -66,10 +66,10 @@ const NavBar = () => {
           </div>
           <ul>
     
-            <li><ScrollLink  onClick={closeMenu} to="צור קשר" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>צרי קשר</div></ScrollLink></li>
-            <li><ScrollLink  onClick={closeMenu} to="שאלות נפוצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>שאלות נפוצות</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="אנטי אייג'ינג" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>אנטי אייג'ינג</div></ScrollLink></li>
+            <li><ScrollLink  onClick={closeMenu} to="תהליך העבודה איתי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>תהליך העבודה</div></ScrollLink></li>
             <li><ScrollLink  onClick={closeMenu} to="לקוחות ממליצות" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>לקוחות ממליצות</div></ScrollLink></li>
-            <li><ScrollLink   onClick={closeMenu} to="קצת עלי" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלי</div></ScrollLink></li>
+            <li><ScrollLink   onClick={closeMenu} to="קצת עלינו" smooth={true} duration={1000} offset={-100}><div className={styles.navLink}>קצת עלינו</div></ScrollLink></li>
             <div className={styles.logo}>
             <img className={styles.navImage} src={logo} alt="אורלי ברטלר לוגו"/>
           </div>

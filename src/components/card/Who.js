@@ -30,7 +30,7 @@ const Who=()=>{
           };
     return <>
     
-    <div className={styles.title} id="מי אנחנו">מי אנחנו?</div>
+    <div className={styles.title} id="קצת עלינו">מי אנחנו?</div>
 <NewCard/>
     
     
