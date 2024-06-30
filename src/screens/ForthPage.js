@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Button from "../components/button/Button"
 import styles from "./ForthPage.module.css"
 import ScrollReveal from "scrollreveal";
+import face from "../images/גליל מדיקל פנים.png"
 const ForthScreen=()=>{
 
 useEffect(()=>{
@@ -23,7 +24,9 @@ useEffect(()=>{
 {/* <div className={styles.header} id="אנטי אייג'ינג">בואי נבין טיפה לעומק</div>
 
 <div className={styles.title}>אנטי אייג'ינג</div> */}
+
 <div className={styles.job}>הזדקנות תאי העור | פגיעה במערכת חיסונית של העור | עור דק ודהוי</div>
+<div className={styles.center}><img className={styles.image} src={face} alt="גליל מדיקל קוסמטיק"/></div>
 <div className={styles.description}>טיפולי אנטי אייג'ינג הם סדרת פרוצדורות וטיפולים שנועדו להאט, למנוע או להפחית את סימני ההזדקנות של העור והגוף. המטרה העיקרית של טיפולים אלו היא לשמר את המראה הצעיר, להפחית קמטים, לטפל בנזקים שנגרמים על ידי חשיפה לשמש, לשפר את גמישות העור ולהשיב את החיוניות והזוהר הטבעי. טיפולי אנטי אייג'ינג יכולים לכלול</div>
 
 <div className={styles.wrapper}>

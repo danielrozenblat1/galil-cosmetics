@@ -6,6 +6,13 @@
     direction:rtl;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
 }
+.center{
+    width:30%;
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+}
+
 .row{
     display: flex;
     flex-direction: row;
@@ -43,11 +50,7 @@ text-align: center;
 margin: 2% auto;
 direction:rtl
 }
-.center{
-    display: flex;
-    margin:0 auto;
-    justify-content: center;
-}
+
 
 @media only screen and (max-width: 350px){
     .title{
@@ -58,6 +61,7 @@ direction:rtl
         direction:rtl;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
     }
+
     .row{
         display: flex;
         flex-direction: row;
@@ -116,6 +120,7 @@ direction:rtl
         width:90%;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
+ 
     .descriptionP{
         font-size:1.2rem;
         font-family: "AssistantR";

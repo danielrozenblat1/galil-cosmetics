@@ -1,5 +1,5 @@
 import styles from "./FirstScreen.module.css"
-import logo from "../images/אורלי ברטלר לוגו.png"
+
 
 const FirstScreen=(props)=>{
 return <>

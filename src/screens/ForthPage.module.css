@@ -3,6 +3,18 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+.center{
+    width:30%;
+    justify-content: center;
+    display: flex;
+    margin:2% auto;
+}
+.image{
+    width: 100%;
+    object-fit: contain;
+    box-shadow: 0 0 5px 1px #444;
+    border-radius: 20px;
+}
 .job{
     font-size: 1.5rem;
     color:#151515;
@@ -55,6 +67,12 @@ direction: rtl;
             flex-direction: row;
             justify-content: space-evenly;
             flex-wrap: wrap;
+        }
+        .center{
+            width:80%;
+            justify-content: center;
+            display: flex;
+            margin:2% auto;
         }
         .job{
             font-size: 1.1rem;
@@ -117,6 +135,12 @@ direction: rtl;
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
+        .center{
+            width:65%;
+            justify-content: center;
+            display: flex;
+            margin:2% auto;
+        }
         .job{
             font-size: 1.2rem;
             color:#151515;
@@ -176,6 +200,13 @@ direction: rtl;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+
+    .center{
+        width:55%;
+        justify-content: center;
+        display: flex;
+        margin:2% auto;
+    }
     .job{
         font-size: 1.2rem;
         color:#151515;
@@ -234,6 +265,12 @@ direction: rtl;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+    }
+    .center{
+        width:50%;
+        justify-content: center;
+        display: flex;
+        margin:2% auto;
     }
     .job{
         font-size: 1.4rem;
@@ -302,6 +339,12 @@ direction: rtl;
         text-align: center;
         font-family: "Assistant";
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .center{
+        width:40%;
+        justify-content: center;
+        display: flex;
+        margin:2% auto;
     }
     .description{
         text-align: center;
