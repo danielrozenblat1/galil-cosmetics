@@ -8,6 +8,7 @@ import ForthScreen from './screens/ForthPage';
 import { useEffect, useState } from 'react';
 import Who from './components/card/Who';
 import ByMe from './components/ByMe/ByMe';
+import FifthScreen from './screens/FifthScreen';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,6 +33,7 @@ function App() {
   <FirstScreen scrolled={scrolled}/>
   <ForthScreen/>
   <Who/>
+
 <ThirdScreen/>
   <SecondScreen/>
   <ByMe/>

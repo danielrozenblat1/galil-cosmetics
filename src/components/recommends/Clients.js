@@ -13,10 +13,10 @@ import reccomend8 from "../../images/אורלי ברטלר לפני אחרי 8.p
 import reccomend9 from "../../images/אורלי ברטלר לפני אחרי 9.png"
 import reccomend10 from "../../images/אורלי ברטלר לפני אחרי 10.png"
 import reccomend11 from "../../images/אורלי ברטלר לפני אחרי 11.png"
-import reccomend12 from "../../images/אורלי ברטלר לפני אחרי 12.png"
+import reccomend12 from "../../images/אורלי ברטלר המלצה 1.png"
+import reccomend13 from "../../images/אורלי ברטלר המלצה 2.png"
+import reccomend14 from "../../images/אורלי ברטלר המלצה 3.png"
 
-import reccomend14 from "../../images/אורלי ברטלר לפני אחרי 14.png"
-import reccomend15 from "../../images/אורלי ברטלר לפני אחרי 15.png"
 const Recommends=()=>{
 const sliderSettings = {
     dots: false,
@@ -91,13 +91,19 @@ const sliderSettings = {
         src: reccomend12,
         alt:"12 אורלי ברטלר לקוחות ממליצים.png"
       },
-  
-   
       {
         type: 'image',
-        src: reccomend15,
-        alt:"15 אורלי ברטלר לקוחות ממליצים.png"
+        src: reccomend13,
+        alt:"13 אורלי ברטלר לקוחות ממליצים.png"
       },
+      {
+        type: 'image',
+        src: reccomend14,
+        alt:"14 אורלי ברטלר לקוחות ממליצים.png"
+      },
+  
+   
+  
 
   ];
 return <>

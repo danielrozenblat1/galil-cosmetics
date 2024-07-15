@@ -9,14 +9,14 @@ const SecondScreen=()=>{
 
 
     return <>
-
+{/* 
     <div className={styles.title}>איך נטפל באנטי אייג'ינג ?</div>
     <div className={styles.row}>
   <Box title="הצערת תאי העור" description="בעזרת טיפולי מחטים מיוחדים נחזיר את העור שלך לגילאי ה20" icon={flower}/>
   <Box title="חומצה הילרונית" description="בעזרת טיפולי מחטים מיוחדים נחזיר את העור שלך לגילאי ה20"  icon={hilrony}/>
     <Box title="חידוש העור ב-לייזר" description="בעזרת טיפולי מחטים מיוחדים נחזיר את העור שלך לגילאי ה20"  icon={laser}/>
     </div>
-<Button text="לחצי כאן לשיחת ייעוץ"/>
+<Button text="לחצי כאן לשיחת ייעוץ"/> */}
     
     <Recommends/>
     <Button text="גם אני רוצה להצטרף אליהן"/>

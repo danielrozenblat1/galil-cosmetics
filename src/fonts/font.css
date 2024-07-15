@@ -10,3 +10,9 @@
     font-weight:light;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'Levin';
+    src: url('./GveretLevinAlefAlefAlef-Regular.otf') format('truetype');
+  
+    font-style: normal;
+  }

@@ -1,6 +1,6 @@
 .title{
     font-size:3.5rem;
-    font-family: "Levin";
+    font-family: "AssistantR";
     text-align: center;
     margin:1% auto;
     direction:rtl;
@@ -12,50 +12,41 @@
     justify-content: center;
     margin:2% auto;
 }
-
-.row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin:1% auto;
-    justify-content: space-evenly;
+.line {
+    width: 250px;
+    height: 15px;
+    background: linear-gradient(90deg,#f2b1c8, #E5719A, #f2b1c8);
+    margin:10px auto
 }
+.bold{
+    margin:1% auto;
+    text-align: center;
+    font-size:2rem;
+    direction: rtl;
+    font-family: "Assistant";
+}
+
 .description{
     font-size:1.5rem;
-    font-family: "Levin";
+    font-family: "AssistantR";
     text-align: center;
     margin:1% auto;
     direction: rtl;
-    width:50%;
+    width:30%;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.descriptionP{
-    font-size:1.5rem;
-    font-family: "Levin";
-    text-align: center;
-    margin:1% auto;
-    direction: rtl;
-    width:50%;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
-    padding-top:80px
+.image{
+    width:100%;
+    object-fit: contain;
 }
-.more{
-    font-size:1.4rem;
-width:50%;
-text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
-line-height: 1.2;
-font-family: "Levin";
-text-align: center;
-margin: 2% auto;
-direction:rtl
-}
+
 
 
 @media only screen and (max-width: 350px){
     .title{
         font-size:2rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:1% auto;
         direction:rtl;
@@ -71,26 +62,18 @@ direction:rtl
     }
     .description{
         font-size:1.15rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:2% auto;
         direction: rtl;
         width:90%;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .descriptionP{
-        font-size:1.15rem;
-        font-family: "Levin";
-        text-align: center;
-        margin:2% auto;
-        direction: rtl;
-        width:90%;
-        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-        padding-top:80px
-    }
+
     .center{
         display: flex;
         margin:0 auto;
+        width:90%;
         justify-content: center;
     }
 }
@@ -98,7 +81,7 @@ direction:rtl
 @media only screen and (min-width: 350px) and (max-width: 450px){
     .title{
         font-size:2.3rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:1% auto;
         direction:rtl;
@@ -113,7 +96,7 @@ direction:rtl
     }
     .description{
         font-size:1.2rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:2% auto;
         direction: rtl;
@@ -121,61 +104,39 @@ direction:rtl
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
  
-    .descriptionP{
-        font-size:1.2rem;
-        font-family: "Levin";
-        text-align: center;
-        margin:2% auto;
-        direction: rtl;
-        width:90%;
-        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-        padding-top:80px
-    }
+
 
     .center{
         display: flex;
         margin:0 auto;
+        width:85%;
         justify-content: center;
     }
 }
 @media only screen and (min-width: 450px) and (max-width: 550px){
     .title{
         font-size:2.5rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:1% auto;
         direction:rtl;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
     }
-    .row{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin:2% auto;
-        justify-content: space-evenly;
-    }
+
     .description{
         font-size:1.25rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:2% auto;
         direction: rtl;
         width:90%;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .descriptionP{
-        font-size:1.25rem;
-        font-family: "Levin";
-        text-align: center;
-        margin:2% auto;
-        direction: rtl;
-        width:90%;
-        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-        padding-top:80px
-    }
+
 
     .center{
         display: flex;
+        width:70%;
         margin:0 auto;
         justify-content: center;
     }
@@ -183,122 +144,80 @@ direction:rtl
 @media only screen and (min-width: 550px) and (max-width: 650px){
     .title{
         font-size:2.8rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:1% auto;
         direction:rtl;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
     }
-    .row{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin:2% auto;
-        justify-content: space-evenly;
-    }
+
     .description{
         font-size:1.4rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:2% auto;
         direction: rtl;
         width:90%;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .descriptionP{
-        font-size:1.4rem;
-        font-family: "Levin";
-        text-align: center;
-        margin:2% auto;
-        direction: rtl;
-        width:90%;
-        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-        padding-top:80px
-    }
+
     .center{
         display: flex;
         margin:0 auto;
+        width:60%;
         justify-content: center;
     }
 }
 @media only screen and (min-width: 650px) and (max-width: 750px){
     .title{
         font-size:3rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:1% auto;
         direction:rtl;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
     }
-    .row{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin:2% auto;
-        justify-content: space-evenly;
-    }
+
     .description{
         font-size:1.5rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:2% auto;
         direction: rtl;
         width:90%;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .descriptionP{
-        font-size:1.5rem;
-        font-family: "Levin";
-        text-align: center;
-        margin:2% auto;
-        direction: rtl;
-        width:90%;
-        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-        padding-top:80px
-    }
+
     .center{
         display: flex;
         margin:0 auto;
+        width:50%;
         justify-content: center;
     }
 }
 @media only screen and (min-width: 750px) and (max-width: 950px){
     .title{
         font-size:3.3rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:1% auto;
         direction:rtl;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
     }
-    .row{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin:2% auto;
-        justify-content: space-evenly;
-    }
+
     .description{
         font-size:1.5rem;
-        font-family: "Levin";
+        font-family: "AssistantR";
         text-align: center;
         margin:2% auto;
         direction: rtl;
         width:80%;
         text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .descriptionP{
-        font-size:1.5rem;
-        font-family: "Levin";
-        text-align: center;
-        margin:2% auto;
-        direction: rtl;
-        width:80%;
-        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
-        padding-top:80px
-    }
+  
     .center{
         display: flex;
+        width:40%;
         margin:0 auto;
         justify-content: center;
     }

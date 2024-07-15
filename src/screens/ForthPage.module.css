@@ -20,7 +20,7 @@
     color:#151515;
     margin:1% auto;
     text-align: center;
-    font-family: "Assistant";
+    font-family: "Levin";
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .description{
@@ -48,8 +48,16 @@ direction: rtl;
 }
 .name{
     font-size: 1.5rem;
-    font-family: "Assistant";
+    font-family: "Levin";
     text-align: center;
+    margin:1% auto;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.title{
+    font-size: 3rem;
+    font-family: "Levin";
+    text-align: center;
+    direction: rtl;
     margin:1% auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -80,8 +88,16 @@ direction: rtl;
             margin:1% auto;
             width:90%;
             text-align: center;
-            font-family: "Assistant";
+            font-family: "Levin";
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .title{
+            font-size: 1.8rem;
+            font-family: "Levin";
+            text-align: center;
+            direction: rtl;
+            margin:1% auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
         }
         .description{
             text-align: center;
@@ -102,7 +118,7 @@ direction: rtl;
         .wrap{
          display: flex;
          flex-direction: column;
-        box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+        box-shadow:0 0 3px 1px rgb(216, 63, 88);
         border-radius: 20px;
         padding:10px;
 
@@ -111,7 +127,7 @@ direction: rtl;
         }
         .name{
             font-size: 1.2rem;
-            font-family: "Assistant";
+            font-family: "Levin";
             text-align: center;
             margin:1% auto;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -141,13 +157,21 @@ direction: rtl;
             display: flex;
             margin:2% auto;
         }
+        .title{
+            font-size:2rem;
+            font-family: "Levin";
+            text-align: center;
+            direction: rtl;
+            margin:1% auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
         .job{
             font-size: 1.2rem;
             color:#151515;
             margin:1% auto;
             width:90%;
             text-align: center;
-            font-family: "Assistant";
+            font-family: "Levin";
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
         .description{
@@ -169,7 +193,7 @@ direction: rtl;
         .wrap{
          display: flex;
          flex-direction: column;
-        box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+        box-shadow:0 0 3px 1px rgb(216, 63, 88);
         border-radius: 20px;
         padding:15px;
 
@@ -178,7 +202,7 @@ direction: rtl;
         }
         .name{
             font-size: 1.25rem;
-            font-family: "Assistant";
+            font-family: "Levin";
             text-align: center;
             margin:1% auto;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -200,7 +224,14 @@ direction: rtl;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
-
+    .title{
+        font-size:2.2rem;
+        font-family: "Levin";
+        text-align: center;
+        direction: rtl;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
     .center{
         width:55%;
         justify-content: center;
@@ -213,7 +244,7 @@ direction: rtl;
         margin:1% auto;
         width:85%;
         text-align: center;
-        font-family: "Assistant";
+        font-family: "Levin";
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
     .description{
@@ -235,7 +266,7 @@ direction: rtl;
     .wrap{
      display: flex;
      flex-direction: column;
-    box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+    box-shadow:0 0 3px 1px rgb(216, 63, 88);
     border-radius: 20px;
     padding:15px;
 
@@ -244,7 +275,7 @@ direction: rtl;
     }
     .name{
         font-size: 1.4rem;
-        font-family: "Assistant";
+        font-family: "Levin";
         text-align: center;
         margin:1% auto;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -272,13 +303,21 @@ direction: rtl;
         display: flex;
         margin:2% auto;
     }
+    .title{
+        font-size:2.5rem;
+        font-family: "Levin";
+        text-align: center;
+        direction: rtl;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
     .job{
         font-size: 1.4rem;
         color:#151515;
         margin:1% auto;
         width:90%;
         text-align: center;
-        font-family: "Assistant";
+        font-family: "Levin";
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     }
     .description{
@@ -300,7 +339,7 @@ direction: rtl;
     .wrap{
      display: flex;
      flex-direction: column;
-    box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+    box-shadow:0 0 3px 1px rgb(216, 63, 88);
     border-radius: 20px;
     padding:15px;
 
@@ -309,7 +348,7 @@ direction: rtl;
     }
     .name{
         font-size: 1.5rem;
-        font-family: "Assistant";
+        font-family: "Levin";
         text-align: center;
         margin:1% auto;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -331,13 +370,21 @@ direction: rtl;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+    .title{
+        font-size:2.7rem;
+        font-family: "Levin";
+        text-align: center;
+        direction: rtl;
+        margin:1% auto;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
     .job{
         font-size: 1.5rem;
         color:#151515;
         margin:1% auto;
         width:75%;
         text-align: center;
-        font-family: "Assistant";
+        font-family: "Levin";
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     }
     .center{
@@ -365,7 +412,7 @@ direction: rtl;
     .wrap{
      display: flex;
      flex-direction: column;
-    box-shadow:0 0 3px 1px rgba(255, 255, 255, 0.462);
+    box-shadow:0 0 3px 1px rgb(216, 63, 88);
     border-radius: 20px;
     padding:15px;
 
@@ -374,7 +421,7 @@ direction: rtl;
     }
     .name{
         font-size: 1.5rem;
-        font-family: "Assistant";
+        font-family: "Levin";
         text-align: center;
         margin:1% auto;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);

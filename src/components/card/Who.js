@@ -32,7 +32,7 @@ const Who=()=>{
     
     <div className={styles.title} id="קצת עלינו">מי אנחנו?</div>
 <NewCard/>
-    
+  
     
     </>
 }
