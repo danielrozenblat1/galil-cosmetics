@@ -34,7 +34,7 @@
   }
   .title{
     font-size:3.5rem;
-    font-family: "Assistant";
+    font-family: "AssistantR";
     text-align: center;
     margin:2% auto;
     direction:rtl;
@@ -55,11 +55,11 @@
     width:70%;
     margin:3% auto 0;
     text-align: center;
-    font-family: "Assistant";
+    font-family: "AssistantR";
     font-size: 2rem;
 }
 .subTitle{
-    font-family: "Assistant";
+    font-family: "AssistantR";
     font-size: 3rem;
     text-align: center;
     width:85%;
@@ -119,7 +119,7 @@
         justify-content: center;
         text-align: center;
         margin:4% auto 0;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 1rem;
@@ -136,11 +136,11 @@
         width:70%;
         margin:3% auto 0;
         text-align: center;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 3rem;
         text-align: center;
         width:85%;
@@ -172,12 +172,12 @@
         width: 70%;
         margin:4% auto;
         justify-content: center;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
    
       }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -215,7 +215,7 @@
         justify-content: center;
         text-align: center;
         margin:2% auto 0;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 1.2rem;
@@ -237,7 +237,7 @@
     }
 
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -272,11 +272,11 @@
         text-align: center;
         width:70%;
         margin:4% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -301,7 +301,7 @@
         justify-content: center;
         text-align: center;
         margin:4% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 1.2rem;
@@ -336,11 +336,11 @@
         text-align: center;
         width:70%;
         margin:4% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -378,7 +378,7 @@
         justify-content: center;
         text-align: center;
         margin:3% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;
@@ -402,11 +402,11 @@
         text-align: center;
         width:70%;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -435,11 +435,11 @@
         text-align: center;
         width:70%;
         margin:3% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -469,7 +469,7 @@
         justify-content: center;
         text-align: center;
         margin:3% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;
@@ -507,11 +507,11 @@
         text-align: center;
         width:70%;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -545,7 +545,7 @@
         justify-content: center;
         text-align: center;
         margin:1% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;
@@ -580,11 +580,11 @@
         text-align: center;
         width:70%;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -622,7 +622,7 @@
         justify-content: center;
         text-align: center;
         margin:3% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;
@@ -657,11 +657,11 @@
         text-align: center;
         width:70%;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -699,7 +699,7 @@
         justify-content: center;
         text-align: center;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;
@@ -734,11 +734,11 @@
         text-align: center;
         width:70%;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -776,7 +776,7 @@
         justify-content: center;
         text-align: center;
         margin:1% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;
@@ -811,11 +811,11 @@
         text-align: center;
         width:70%;
         margin:2% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 2.5rem;
     }
     .subTitle{
-        font-family: "Assistant";
+        font-family: "AssistantR";
         font-size: 4rem;
         text-align: center;
         width:80%;
@@ -853,7 +853,7 @@
         justify-content: center;
         text-align: center;
         margin:1% auto;
-        font-family: "Assistant";
+        font-family: "AssistantR";
     }
     .explain{
         font-size: 22px;

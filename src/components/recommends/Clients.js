@@ -111,7 +111,7 @@ return <>
 <div className={styles.container} id="לקוחות ממליצות">
 
  <div className={styles.title}>קצת מהלקוחות שלי..</div>
- <div className={styles.explain}>דפדפי בין התמונות ותראי איך הקסם קורה</div>
+ <div className={styles.explain}>דפדפ/י בין התמונות ותראה/י איך הקסם קורה</div>
  <div className={styles.sliderContainer}>
 <Slider {...sliderSettings} style={{zIndex:0}}>
 {content.map((item, index) => (

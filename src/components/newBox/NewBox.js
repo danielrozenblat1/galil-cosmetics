@@ -5,7 +5,7 @@ const NewBox=(props)=>{
 return <>
 <div className={styles.center}><img className={styles.image} src={props.src} alt={props.src}/></div>
 <div className={styles.center}><img className={styles.image} src={props.src2} alt={props.src2}/></div>
-<Button text="לעוד מידע"/>
+<Button text="למידע נוסף"/>
 </>
 
 

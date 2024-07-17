@@ -19,7 +19,7 @@ const SecondScreen=()=>{
 <Button text="לחצי כאן לשיחת ייעוץ"/> */}
     
     <Recommends/>
-    <Button text="גם אני רוצה להצטרף אליהן"/>
+    <Button text="גם אני רוצה להצטרף אליהם"/>
     </>
 }
 export default SecondScreen
